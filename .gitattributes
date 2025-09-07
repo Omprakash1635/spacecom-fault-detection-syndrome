@@ -1,2 +1,26 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Ensure consistent text file handling
+* text=auto eol=lf
+
+# Arduino / C++ source code files
+*.ino text diff=cpp
+*.cpp text diff=cpp
+*.h   text diff=cpp
+
+# Markdown & Documentation
+*.md  text diff=markdown
+*.txt text
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Audio files (DFPlayer Mini tracks)
+*.mp3 binary
+*.wav binary
+
+# License files
+LICENSE text
+
+# Keep attributes for git archive/exports
+.gitattributes export-ignore
+.gitignore export-ignore
