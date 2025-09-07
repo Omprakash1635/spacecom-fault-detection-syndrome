@@ -5,8 +5,8 @@
 This repository contains the Arduino code and documentation for the project 
 **“SpaceCom Fault Detection using Syndrome”**, published in **IJERT**.
 
-📄 Paper link: [View on IJERT](https://www.ijert.org/your-paper-link)  
-👥 Authors: Your Name, Co-author Name  
+📄 Paper link: [View on IJERT](https://www.ijert.org/an-overview-on-syndrome-based-fault-detection-and-error-mapping-systems)  
+👥 Authors: Madhan N,V Om Prakash.
 📅 Year: 2024  
 
 spacecom-fault-detection-syndrome/
